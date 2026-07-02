@@ -4,4 +4,5 @@
   <Project Path="Core/Core.csproj" Id="5ff76ffb-a885-4344-8567-1078c531594f" />
   <Project Path="DataAccess/DataAccess.csproj" Id="3d8ad85d-55f6-4a38-9774-0aeccf13f923" />
   <Project Path="Entities/Entities.csproj" Id="5780502a-0f94-42db-91e1-885a177ae743" />
+  <Project Path="WebAPI/WebAPI.csproj" Id="e72256dd-c6d9-4db0-bd92-31af3b180ecd" />
 </Solution>

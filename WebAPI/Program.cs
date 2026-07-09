@@ -16,7 +16,7 @@ using Core.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-//Autofac, Ninject, CastleWindsor, StructureMap, LightInject, DryInject --> IoC Container
+//Autofac, Ninject, CastleWindsor, StructureMap, LightInject, DryInject --> IoC Container.
 builder.Services.AddControllers();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();

@@ -55,4 +55,6 @@ namespace Core.CrossCuttingConcerns.Caching.Microsoft
                 _memoryCache.Remove(key);
                 _keys.TryRemove(key, out _);
             }
+        }   
+    }
 }
